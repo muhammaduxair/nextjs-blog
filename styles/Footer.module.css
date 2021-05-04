@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: auto;
+  background-color: #0070f3;
+}
+.footer > p {
+  color: #fff;
+}
+.footer > p > a {
+  text-decoration: underline;
+}
