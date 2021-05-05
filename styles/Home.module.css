@@ -67,7 +67,11 @@
   max-width: 800px;
   margin-top: 3rem;
 }
-
+.blogBox {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+}
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -78,6 +82,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
+  cursor: pointer;
 }
 
 .card:hover,
@@ -101,6 +106,18 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.headerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 10px 0;
+}
+.headerBox > h1 {
+  font-size: 50px;
+  color: #0070f3;
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
